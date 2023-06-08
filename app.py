@@ -4,7 +4,8 @@ from matplotlib import pyplot as plt
 import preprocessor,funs
 import matplotlib.pyplot
 st.sidebar.title("Whatsapp Chat Analyzer")
-st.title("Whatsapp Chat Analyzer")
+st.title("IK What's UP")
+st.header("Whatsapp Chat Analyzer")
 uploaded_file = st.sidebar.file_uploader("Choose a file")
 if uploaded_file is not None:
     # To read file as bytes:
